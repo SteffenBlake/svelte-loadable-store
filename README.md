@@ -1,8 +1,11 @@
+# Fork Acknowledgement ⚠️
+This project is a fork of the original work by [Nikita Galaiko](https://github.com/ngalaiko/svelte-loadable-store). I have updated and maintained it further to work with Svelte 5. Many thanks to Nikita for the foundation and effort put into the original library.
+
 # Svelte Loadable Store
 
 [![npm](https://img.shields.io/npm/v/svelte-loadable-store)](https://www.npmjs.com/package/svelte-loadable-store)
-[![license](https://img.shields.io/github/license/ngalaiko/svelte-loadable-store)](https://raw.githubusercontent.com/ngalaiko/svelte-loadable-store/master/LICENSE)
-[![test](https://github.com/ngalaiko/svelte-loadable-store/actions/workflows/test.yaml/badge.svg)](https://github.com/ngalaiko/svelte-loadable-store/actions/workflows/test.yaml)
+[![license](https://img.shields.io/github/license/SteffenBlake/svelte-loadable-store)](https://raw.githubusercontent.com/SteffenBlake/svelte-loadable-store/master/LICENSE)
+[![test](https://github.com/SteffenBlake/svelte-loadable-store/actions/workflows/test.yaml/badge.svg)](https://github.com/SteffenBlake/svelte-loadable-store/actions/workflows/test.yaml)
 
 This library provides wrappers for vanilla svelte stores to simplify consumption of async APIs.
 
