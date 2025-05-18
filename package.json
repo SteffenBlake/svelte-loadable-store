@@ -1,5 +1,5 @@
 {
-    "name": "svelte-loadable-store",
+    "name": "@steffenblake/svelte-loadable-store",
     "version": "5.0.1",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
@@ -25,7 +25,7 @@
     ],
     "type": "module",
     "peerDependencies": {
-        "svelte": "3.x.x || 4.x.x || 5.x.x"
+        "svelte": "5.x.x"
     },
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^8.32.1",

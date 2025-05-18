@@ -13,7 +13,10 @@ export default <T>(
 			: ({ isLoading: false, value } as Loaded<T>);
 
 	const { set, update, subscribe } = writable<Loadable<T>>(initialValue, (set) =>
-		start((value) => set({ isLoading: false, value }))
+		start(
+            (value) => set({ isLoading: false, value }),
+            () => {}
+        )
 	);
 
 	if (isValuePromised) {
